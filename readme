@@ -1,0 +1,16 @@
+1. Make yaml file for each sample
+
+make_yaml.R
+
+2. Activate virtual environment
+
+source activate /home/phuazjc/venv/pvacseq
+
+3. Run RNAseq
+
+./main.sh
+
+4. Rerun in case of exceeded memory
+
+./unlock.sh
+./main.sh

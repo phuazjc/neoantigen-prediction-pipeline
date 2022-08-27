@@ -1,0 +1,41 @@
+{
+    # match short queue
+    "__default__":
+    {
+      "time" : "08:00:00",
+      "mem" : 8G,
+    },
+
+    "polysolver":
+    {
+      "time" : "24:00:00",
+      "mem" : 8G,
+    },
+
+    "vep":
+    {
+      "time" : "24:00:00",
+      "mem" : 12G,
+    },
+
+    "pvacseq":
+    {
+      "time" : "48:00:00",
+      "mem" : 30G,
+    },
+    
+    "wig2bigwig":
+    {
+      "time" : "02:00:00",
+      "mem" : 10G,
+    },
+    
+    "wig2bigwig_rsem":
+    {
+      "time" : "02:00:00",
+      "mem" : 10G,
+    },
+
+}    
+
+
